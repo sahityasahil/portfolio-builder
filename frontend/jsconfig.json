@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",           // Specify ECMAScript target version: 'ES5', 'ES6', etc.
+      "module": "commonjs",       // Module system: 'commonjs', 'amd', etc.
+      "allowSyntheticDefaultImports": true
+    },
+    "include": [
+      "src/**/*"                  // Include all JavaScript files in the "src" directory
+    ],
+    "exclude": [
+      "node_modules",             // Exclude the 'node_modules' directory
+      "**/*.test.js"              // Exclude test files (optional)
+    ]
+  }
+  
